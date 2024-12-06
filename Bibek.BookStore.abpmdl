@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Bibek.BookStore.Application": {
+      "path": "src/Bibek.BookStore.Application/Bibek.BookStore.Application.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.Application.Tests": {
+      "path": "test/Bibek.BookStore.Application.Tests/Bibek.BookStore.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Bibek.BookStore.Domain.Shared": {
+      "path": "src/Bibek.BookStore.Domain.Shared/Bibek.BookStore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.Application.Contracts": {
+      "path": "src/Bibek.BookStore.Application.Contracts/Bibek.BookStore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.HttpApi": {
+      "path": "src/Bibek.BookStore.HttpApi/Bibek.BookStore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.HttpApi.Client": {
+      "path": "src/Bibek.BookStore.HttpApi.Client/Bibek.BookStore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.EntityFrameworkCore.Tests": {
+      "path": "test/Bibek.BookStore.EntityFrameworkCore.Tests/Bibek.BookStore.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Bibek.BookStore.EntityFrameworkCore": {
+      "path": "src/Bibek.BookStore.EntityFrameworkCore/Bibek.BookStore.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.TestBase": {
+      "path": "test/Bibek.BookStore.TestBase/Bibek.BookStore.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Bibek.BookStore.Domain.Tests": {
+      "path": "test/Bibek.BookStore.Domain.Tests/Bibek.BookStore.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Bibek.BookStore.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Bibek.BookStore.HttpApi.Client.ConsoleTestApp/Bibek.BookStore.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Bibek.BookStore.DbMigrator": {
+      "path": "src/Bibek.BookStore.DbMigrator/Bibek.BookStore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.HttpApi.Host": {
+      "path": "src/Bibek.BookStore.HttpApi.Host/Bibek.BookStore.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Bibek.BookStore.Domain": {
+      "path": "src/Bibek.BookStore.Domain/Bibek.BookStore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
