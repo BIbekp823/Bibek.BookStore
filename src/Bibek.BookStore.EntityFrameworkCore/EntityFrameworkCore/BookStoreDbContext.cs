@@ -56,6 +56,7 @@ public class BookStoreDbContext :
     public DbSet<Tenant> Tenants { get; set; }
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
     public DbSet<Client> Clients { get; set; }
+    public DbSet<Book> Books { get; set; }
 
     #endregion
 
@@ -93,6 +94,10 @@ public class BookStoreDbContext :
         builder.Entity<Client>(b =>
         {
             b.ToTable(nameof(Client));
+        });
+        builder.Entity<Book>(b =>
+        {
+            b.ToTable(nameof(Book));
         });
     }
 }
