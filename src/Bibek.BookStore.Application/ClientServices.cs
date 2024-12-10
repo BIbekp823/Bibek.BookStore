@@ -22,7 +22,6 @@ namespace Bibek.BookStore
         {
             _clientRepository = clientRepository;
         }
-
         public async Task<IActionResult> CreateAsync(ClientDTO client)
         {
             try
@@ -36,25 +35,21 @@ namespace Bibek.BookStore
                 return new OkResult();
             }
         }
-
         public  async Task<IActionResult> DeleteAsync(Guid Id)
         {
             await this._clientRepository.DeleteAsync(Id);
-            return new OkResult();
+           return new OkResult();
         }
-
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
             var clientObj = await this._clientRepository.GetAsync(id);
             return new ObjectResult(clientObj);
         }
-
         public async Task<IActionResult> GetListAsync()
         {
             var clientList = await this._clientRepository.GetListAsync();
             return new ObjectResult(clientList);
         }
-
         public async Task<IActionResult> UpdateAsync(ClientDTO client)
         {
             try

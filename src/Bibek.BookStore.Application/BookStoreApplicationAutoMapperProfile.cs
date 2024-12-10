@@ -12,5 +12,7 @@ public class BookStoreApplicationAutoMapperProfile : Profile
          * Alternatively, you can split your mapping configurations
          * into multiple profile classes for a better organization. */
         CreateMap<ClientDTO, Client>().ReverseMap(); 
+        CreateMap<BookDTO, Book>().ReverseMap();   
+        CreateMap<ClientBookDTO,Book>().ReverseMap();    
     }
 }
