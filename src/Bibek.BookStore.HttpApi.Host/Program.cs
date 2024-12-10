@@ -52,7 +52,7 @@ public class Program
                 throw;
             }
 
-            Log.Fatal(ex, "Host terminated unexpectedly!");
+            Log.Fatal(ex, "Host terminated unexpectedly is your fault try again !");
             return 1;
         }
         finally
