@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bibek.BookStore.Domain.Shared\Bibek.BookStore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Bibek.BookStore.Domain\Bibek.BookStore.Domain.csproj" />
   </ItemGroup>
   
   <ItemGroup>
